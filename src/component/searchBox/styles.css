@@ -1,0 +1,39 @@
+.search-box-root {
+  position: relative;
+  margin: 0 auto;
+}
+
+.input-search {
+  width: calc(100% - 20px);
+  padding: 15px 0;
+  padding-left: 20px;
+  font-size: 1.3rem;
+}
+
+.autoContainer {
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 55px;
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: 1px solid;
+  max-height: 50rem;
+}
+.option {
+  padding: 5px 10px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  position: relative;
+}
+.option:hover, option:focus, option:active {
+  background-color: rgb(155, 155, 155);
+  border-color: honeydew;
+}
+.option:active {
+  background-color: rgb(155, 155, 155);
+  border-color: honeydew;
+}
